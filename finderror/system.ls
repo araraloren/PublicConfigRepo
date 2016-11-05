@@ -555,7 +555,10 @@ number:254
 comment:The specified extended attribute name was invalid.
 error:ERROR_EA_LIST_INCONSISTENT
 number:255
-comment:The extended attributes are inconsistent.WAIT_TIMEOUT258 (0x102)The wait operation timed out.
+comment:The extended attributes are inconsistent.
+error:WAIT_TIMEOUT
+number:258
+comment:The wait operation timed out.
 error:ERROR_NO_MORE_ITEMS
 number:259
 comment:No more data is available.
@@ -2889,7 +2892,250 @@ number:1653
 comment:A fail fast exception occurred. Exception handlers will not be invoked and the process will be terminated immediately.
 error:ERROR_INSTALL_REJECTED
 number:1654
-comment:The app that you are trying to run is not supported on this version of Windows.RPC_S_INVALID_STRING_BINDING1700 (0x6A4)The string binding is invalid.RPC_S_WRONG_KIND_OF_BINDING1701 (0x6A5)The binding handle is not the correct type.RPC_S_INVALID_BINDING1702 (0x6A6)The binding handle is invalid.RPC_S_PROTSEQ_NOT_SUPPORTED1703 (0x6A7)The RPC protocol sequence is not supported.RPC_S_INVALID_RPC_PROTSEQ1704 (0x6A8)The RPC protocol sequence is invalid.RPC_S_INVALID_STRING_UUID1705 (0x6A9)The string universal unique identifier (UUID) is invalid.RPC_S_INVALID_ENDPOINT_FORMAT1706 (0x6AA)The endpoint format is invalid.RPC_S_INVALID_NET_ADDR1707 (0x6AB)The network address is invalid.RPC_S_NO_ENDPOINT_FOUND1708 (0x6AC)No endpoint was found.RPC_S_INVALID_TIMEOUT1709 (0x6AD)The timeout value is invalid.RPC_S_OBJECT_NOT_FOUND1710 (0x6AE)The object universal unique identifier (UUID) was not found.RPC_S_ALREADY_REGISTERED1711 (0x6AF)The object universal unique identifier (UUID) has already been registered.RPC_S_TYPE_ALREADY_REGISTERED1712 (0x6B0)The type universal unique identifier (UUID) has already been registered.RPC_S_ALREADY_LISTENING1713 (0x6B1)The RPC server is already listening.RPC_S_NO_PROTSEQS_REGISTERED1714 (0x6B2)No protocol sequences have been registered.RPC_S_NOT_LISTENING1715 (0x6B3)The RPC server is not listening.RPC_S_UNKNOWN_MGR_TYPE1716 (0x6B4)The manager type is unknown.RPC_S_UNKNOWN_IF1717 (0x6B5)The interface is unknown.RPC_S_NO_BINDINGS1718 (0x6B6)There are no bindings.RPC_S_NO_PROTSEQS1719 (0x6B7)There are no protocol sequences.RPC_S_CANT_CREATE_ENDPOINT1720 (0x6B8)The endpoint cannot be created.RPC_S_OUT_OF_RESOURCES1721 (0x6B9)Not enough resources are available to complete this operation.RPC_S_SERVER_UNAVAILABLE1722 (0x6BA)The RPC server is unavailable.RPC_S_SERVER_TOO_BUSY1723 (0x6BB)The RPC server is too busy to complete this operation.RPC_S_INVALID_NETWORK_OPTIONS1724 (0x6BC)The network options are invalid.RPC_S_NO_CALL_ACTIVE1725 (0x6BD)There are no remote procedure calls active on this thread.RPC_S_CALL_FAILED1726 (0x6BE)The remote procedure call failed.RPC_S_CALL_FAILED_DNE1727 (0x6BF)The remote procedure call failed and did not execute.RPC_S_PROTOCOL_ERROR1728 (0x6C0)A remote procedure call (RPC) protocol error occurred.RPC_S_PROXY_ACCESS_DENIED1729 (0x6C1)Access to the HTTP proxy is denied.RPC_S_UNSUPPORTED_TRANS_SYN1730 (0x6C2)The transfer syntax is not supported by the RPC server.RPC_S_UNSUPPORTED_TYPE1732 (0x6C4)The universal unique identifier (UUID) type is not supported.RPC_S_INVALID_TAG1733 (0x6C5)The tag is invalid.RPC_S_INVALID_BOUND1734 (0x6C6)The array bounds are invalid.RPC_S_NO_ENTRY_NAME1735 (0x6C7)The binding does not contain an entry name.RPC_S_INVALID_NAME_SYNTAX1736 (0x6C8)The name syntax is invalid.RPC_S_UNSUPPORTED_NAME_SYNTAX1737 (0x6C9)The name syntax is not supported.RPC_S_UUID_NO_ADDRESS1739 (0x6CB)No network address is available to use to construct a universal unique identifier (UUID).RPC_S_DUPLICATE_ENDPOINT1740 (0x6CC)The endpoint is a duplicate.RPC_S_UNKNOWN_AUTHN_TYPE1741 (0x6CD)The authentication type is unknown.RPC_S_MAX_CALLS_TOO_SMALL1742 (0x6CE)The maximum number of calls is too small.RPC_S_STRING_TOO_LONG1743 (0x6CF)The string is too long.RPC_S_PROTSEQ_NOT_FOUND1744 (0x6D0)The RPC protocol sequence was not found.RPC_S_PROCNUM_OUT_OF_RANGE1745 (0x6D1)The procedure number is out of range.RPC_S_BINDING_HAS_NO_AUTH1746 (0x6D2)The binding does not contain any authentication information.RPC_S_UNKNOWN_AUTHN_SERVICE1747 (0x6D3)The authentication service is unknown.RPC_S_UNKNOWN_AUTHN_LEVEL1748 (0x6D4)The authentication level is unknown.RPC_S_INVALID_AUTH_IDENTITY1749 (0x6D5)The security context is invalid.RPC_S_UNKNOWN_AUTHZ_SERVICE1750 (0x6D6)The authorization service is unknown.EPT_S_INVALID_ENTRY1751 (0x6D7)The entry is invalid.EPT_S_CANT_PERFORM_OP1752 (0x6D8)The server endpoint cannot perform the operation.EPT_S_NOT_REGISTERED1753 (0x6D9)There are no more endpoints available from the endpoint mapper.RPC_S_NOTHING_TO_EXPORT1754 (0x6DA)No interfaces have been exported.RPC_S_INCOMPLETE_NAME1755 (0x6DB)The entry name is incomplete.RPC_S_INVALID_VERS_OPTION1756 (0x6DC)The version option is invalid.RPC_S_NO_MORE_MEMBERS1757 (0x6DD)There are no more members.RPC_S_NOT_ALL_OBJS_UNEXPORTED1758 (0x6DE)There is nothing to unexport.RPC_S_INTERFACE_NOT_FOUND1759 (0x6DF)The interface was not found.RPC_S_ENTRY_ALREADY_EXISTS1760 (0x6E0)The entry already exists.RPC_S_ENTRY_NOT_FOUND1761 (0x6E1)The entry is not found.RPC_S_NAME_SERVICE_UNAVAILABLE1762 (0x6E2)The name service is unavailable.RPC_S_INVALID_NAF_ID1763 (0x6E3)The network address family is invalid.RPC_S_CANNOT_SUPPORT1764 (0x6E4)The requested operation is not supported.RPC_S_NO_CONTEXT_AVAILABLE1765 (0x6E5)No security context is available to allow impersonation.RPC_S_INTERNAL_ERROR1766 (0x6E6)An internal error occurred in a remote procedure call (RPC).RPC_S_ZERO_DIVIDE1767 (0x6E7)The RPC server attempted an integer division by zero.RPC_S_ADDRESS_ERROR1768 (0x6E8)An addressing error occurred in the RPC server.RPC_S_FP_DIV_ZERO1769 (0x6E9)A floating-point operation at the RPC server caused a division by zero.RPC_S_FP_UNDERFLOW1770 (0x6EA)A floating-point underflow occurred at the RPC server.RPC_S_FP_OVERFLOW1771 (0x6EB)A floating-point overflow occurred at the RPC server.RPC_X_NO_MORE_ENTRIES1772 (0x6EC)The list of RPC servers available for the binding of auto handles has been exhausted.RPC_X_SS_CHAR_TRANS_OPEN_FAIL1773 (0x6ED)Unable to open the character translation table file.RPC_X_SS_CHAR_TRANS_SHORT_FILE1774 (0x6EE)The file containing the character translation table has fewer than 512 bytes.RPC_X_SS_IN_NULL_CONTEXT1775 (0x6EF)A null context handle was passed from the client to the host during a remote procedure call.RPC_X_SS_CONTEXT_DAMAGED1777 (0x6F1)The context handle changed during a remote procedure call.RPC_X_SS_HANDLES_MISMATCH1778 (0x6F2)The binding handles passed to a remote procedure call do not match.RPC_X_SS_CANNOT_GET_CALL_HANDLE1779 (0x6F3)The stub is unable to get the remote procedure call handle.RPC_X_NULL_REF_POINTER1780 (0x6F4)A null reference pointer was passed to the stub.RPC_X_ENUM_VALUE_OUT_OF_RANGE1781 (0x6F5)The enumeration value is out of range.RPC_X_BYTE_COUNT_TOO_SMALL1782 (0x6F6)The byte count is too small.RPC_X_BAD_STUB_DATA1783 (0x6F7)The stub received bad data.
+comment:The app that you are trying to run is not supported on this version of Windows.
+error:RPC_S_INVALID_STRING_BINDING
+number:1700
+comment:The string binding is invalid.
+error:RPC_S_WRONG_KIND_OF_BINDING
+number:1701
+comment:The binding handle is not the correct type.
+error:RPC_S_INVALID_BINDING
+number:1702
+comment:The binding handle is invalid.
+error:RPC_S_PROTSEQ_NOT_SUPPORTED
+number:1703
+comment:The RPC protocol sequence is not supported.
+error:RPC_S_INVALID_RPC_PROTSEQ
+number:1704
+comment:The RPC protocol sequence is invalid.
+error:RPC_S_INVALID_STRING_UUID
+number:1705
+comment:The string universal unique identifier (UUID) is invalid.
+error:RPC_S_INVALID_ENDPOINT_FORMAT
+number:1706
+comment:The endpoint format is invalid.
+error:RPC_S_INVALID_NET_ADDR
+number:1707
+comment:The network address is invalid.
+error:RPC_S_NO_ENDPOINT_FOUND
+number:1708
+comment:No endpoint was found.
+error:RPC_S_INVALID_TIMEOUT
+number:1709
+comment:The timeout value is invalid.
+error:RPC_S_OBJECT_NOT_FOUND
+number:1710
+comment:The object universal unique identifier (UUID) was not found.
+error:RPC_S_ALREADY_REGISTERED
+number:1711
+comment:The object universal unique identifier (UUID) has already been registered.
+error:RPC_S_TYPE_ALREADY_REGISTERED
+number:1712
+comment:The type universal unique identifier (UUID) has already been registered.
+error:RPC_S_ALREADY_LISTENING
+number:1713
+comment:The RPC server is already listening.
+error:RPC_S_NO_PROTSEQS_REGISTERED
+number:1714
+comment:No protocol sequences have been registered.
+error:RPC_S_NOT_LISTENING
+number:1715
+comment:The RPC server is not listening.
+error:RPC_S_UNKNOWN_MGR_TYPE
+number:1716
+comment:The manager type is unknown.
+error:RPC_S_UNKNOWN_IF
+number:1717
+comment:The interface is unknown.
+error:RPC_S_NO_BINDINGS
+number:1718
+comment:There are no bindings.
+error:RPC_S_NO_PROTSEQS
+number:1719
+comment:There are no protocol sequences.
+error:RPC_S_CANT_CREATE_ENDPOINT
+number:1720
+comment:The endpoint cannot be created.
+error:RPC_S_OUT_OF_RESOURCES
+number:1721
+comment:Not enough resources are available to complete this operation.
+error:RPC_S_SERVER_UNAVAILABLE
+number:1722
+comment:The RPC server is unavailable.
+error:RPC_S_SERVER_TOO_BUSY
+number:1723
+comment:The RPC server is too busy to complete this operation.
+error:RPC_S_INVALID_NETWORK_OPTIONS
+number:1724
+comment:The network options are invalid.
+error:RPC_S_NO_CALL_ACTIVE
+number:1725
+comment:There are no remote procedure calls active on this thread.
+error:RPC_S_CALL_FAILED
+number:1726
+comment:The remote procedure call failed.
+error:RPC_S_CALL_FAILED_DNE
+number:1727
+comment:The remote procedure call failed and did not execute.
+error:RPC_S_PROTOCOL_ERROR
+number:1728
+comment:A remote procedure call (RPC) protocol error occurred.
+error:RPC_S_PROXY_ACCESS_DENIED
+number:1729
+comment:Access to the HTTP proxy is denied.
+error:RPC_S_UNSUPPORTED_TRANS_SYN
+number:1730
+comment:The transfer syntax is not supported by the RPC server.
+error:RPC_S_UNSUPPORTED_TYPE
+number:1732
+comment:The universal unique identifier (UUID) type is not supported.
+error:RPC_S_INVALID_TAG
+number:1733
+comment:The tag is invalid.
+error:RPC_S_INVALID_BOUND
+number:1734
+comment:The array bounds are invalid.
+error:RPC_S_NO_ENTRY_NAME
+number:1735
+comment:The binding does not contain an entry name.
+error:RPC_S_INVALID_NAME_SYNTAX
+number:1736
+comment:The name syntax is invalid.
+error:RPC_S_UNSUPPORTED_NAME_SYNTAX
+number:1737
+comment:The name syntax is not supported.
+error:RPC_S_UUID_NO_ADDRESS
+number:1739
+comment:No network address is available to use to construct a universal unique identifier (UUID).
+error:RPC_S_DUPLICATE_ENDPOINT
+number:1740
+comment:The endpoint is a duplicate.
+error:RPC_S_UNKNOWN_AUTHN_TYPE
+number:1741
+comment:The authentication type is unknown.
+error:RPC_S_MAX_CALLS_TOO_SMALL
+number:1742
+comment:The maximum number of calls is too small.
+error:RPC_S_STRING_TOO_LONG
+number:1743
+comment:The string is too long.
+error:RPC_S_PROTSEQ_NOT_FOUND
+number:1744
+comment:The RPC protocol sequence was not found.
+error:RPC_S_PROCNUM_OUT_OF_RANGE
+number:1745
+comment:The procedure number is out of range.
+error:RPC_S_BINDING_HAS_NO_AUTH
+number:1746
+comment:The binding does not contain any authentication information.
+error:RPC_S_UNKNOWN_AUTHN_SERVICE
+number:1747
+comment:The authentication service is unknown.
+error:RPC_S_UNKNOWN_AUTHN_LEVEL
+number:1748
+comment:The authentication level is unknown.
+error:RPC_S_INVALID_AUTH_IDENTITY
+number:1749
+comment:The security context is invalid.
+error:RPC_S_UNKNOWN_AUTHZ_SERVICE
+number:1750
+comment:The authorization service is unknown.
+error:EPT_S_INVALID_ENTRY
+number:1751
+comment:The entry is invalid.
+error:EPT_S_CANT_PERFORM_OP
+number:1752
+comment:The server endpoint cannot perform the operation.
+error:EPT_S_NOT_REGISTERED
+number:1753
+comment:There are no more endpoints available from the endpoint mapper.
+error:RPC_S_NOTHING_TO_EXPORT
+number:1754
+comment:No interfaces have been exported.
+error:RPC_S_INCOMPLETE_NAME
+number:1755
+comment:The entry name is incomplete.
+error:RPC_S_INVALID_VERS_OPTION
+number:1756
+comment:The version option is invalid.
+error:RPC_S_NO_MORE_MEMBERS
+number:1757
+comment:There are no more members.
+error:RPC_S_NOT_ALL_OBJS_UNEXPORTED
+number:1758
+comment:There is nothing to unexport.
+error:RPC_S_INTERFACE_NOT_FOUND
+number:1759
+comment:The interface was not found.
+error:RPC_S_ENTRY_ALREADY_EXISTS
+number:1760
+comment:The entry already exists.
+error:RPC_S_ENTRY_NOT_FOUND
+number:1761
+comment:The entry is not found.
+error:RPC_S_NAME_SERVICE_UNAVAILABLE
+number:1762
+comment:The name service is unavailable.
+error:RPC_S_INVALID_NAF_ID
+number:1763
+comment:The network address family is invalid.
+error:RPC_S_CANNOT_SUPPORT
+number:1764
+comment:The requested operation is not supported.
+error:RPC_S_NO_CONTEXT_AVAILABLE
+number:1765
+comment:No security context is available to allow impersonation.
+error:RPC_S_INTERNAL_ERROR
+number:1766
+comment:An internal error occurred in a remote procedure call (RPC).
+error:RPC_S_ZERO_DIVIDE
+number:1767
+comment:The RPC server attempted an integer division by zero.
+error:RPC_S_ADDRESS_ERROR
+number:1768
+comment:An addressing error occurred in the RPC server.
+error:RPC_S_FP_DIV_ZERO
+number:1769
+comment:A floating-point operation at the RPC server caused a division by zero.
+error:RPC_S_FP_UNDERFLOW
+number:1770
+comment:A floating-point underflow occurred at the RPC server.
+error:RPC_S_FP_OVERFLOW
+number:1771
+comment:A floating-point overflow occurred at the RPC server.
+error:RPC_X_NO_MORE_ENTRIES
+number:1772
+comment:The list of RPC servers available for the binding of auto handles has been exhausted.
+error:RPC_X_SS_CHAR_TRANS_OPEN_FAIL
+number:1773
+comment:Unable to open the character translation table file.
+error:RPC_X_SS_CHAR_TRANS_SHORT_FILE
+number:1774
+comment:The file containing the character translation table has fewer than 512 bytes.
+error:RPC_X_SS_IN_NULL_CONTEXT
+number:1775
+comment:A null context handle was passed from the client to the host during a remote procedure call.
+error:RPC_X_SS_CONTEXT_DAMAGED
+number:1777
+comment:The context handle changed during a remote procedure call.
+error:RPC_X_SS_HANDLES_MISMATCH
+number:1778
+comment:The binding handles passed to a remote procedure call do not match.
+error:RPC_X_SS_CANNOT_GET_CALL_HANDLE
+number:1779
+comment:The stub is unable to get the remote procedure call handle.
+error:RPC_X_NULL_REF_POINTER
+number:1780
+comment:A null reference pointer was passed to the stub.
+error:RPC_X_ENUM_VALUE_OUT_OF_RANGE
+number:1781
+comment:The enumeration value is out of range.
+error:RPC_X_BYTE_COUNT_TOO_SMALL
+number:1782
+comment:The byte count is too small.
+error:RPC_X_BAD_STUB_DATA
+number:1783
+comment:The stub received bad data.
 error:ERROR_INVALID_USER_BUFFER
 number:1784
 comment:The supplied user buffer is not valid for the requested operation.
@@ -2910,7 +3156,10 @@ number:1789
 comment:The trust relationship between this workstation and the primary domain failed.
 error:ERROR_TRUST_FAILURE
 number:1790
-comment:The network logon failed.RPC_S_CALL_IN_PROGRESS1791 (0x6FF)A remote procedure call is already in progress for this thread.
+comment:The network logon failed.
+error:RPC_S_CALL_IN_PROGRESS
+number:1791
+comment:A remote procedure call is already in progress for this thread.
 error:ERROR_NETLOGON_NOT_STARTED
 number:1792
 comment:An attempt was made to logon, but the network logon service was not started.
@@ -2952,7 +3201,10 @@ number:1804
 comment:The specified datatype is invalid.
 error:ERROR_INVALID_ENVIRONMENT
 number:1805
-comment:The environment specified is invalid.RPC_S_NO_MORE_BINDINGS1806 (0x70E)There are no more bindings.
+comment:The environment specified is invalid.
+error:RPC_S_NO_MORE_BINDINGS
+number:1806
+comment:There are no more bindings.
 error:ERROR_NOLOGON_INTERDOMAIN_TRUST_ACCOUNT
 number:1807
 comment:The account used is an interdomain trust account. Use your global user account or local user account to access this server.
@@ -2982,7 +3234,67 @@ number:1815
 comment:The specified resource language ID cannot be found in the image file.
 error:ERROR_NOT_ENOUGH_QUOTA
 number:1816
-comment:Not enough quota is available to process this command.RPC_S_NO_INTERFACES1817 (0x719)No interfaces have been registered.RPC_S_CALL_CANCELLED1818 (0x71A)The remote procedure call was cancelled.RPC_S_BINDING_INCOMPLETE1819 (0x71B)The binding handle does not contain all required information.RPC_S_COMM_FAILURE1820 (0x71C)A communications failure occurred during a remote procedure call.RPC_S_UNSUPPORTED_AUTHN_LEVEL1821 (0x71D)The requested authentication level is not supported.RPC_S_NO_PRINC_NAME1822 (0x71E)No principal name registered.RPC_S_NOT_RPC_ERROR1823 (0x71F)The error specified is not a valid Windows RPC error code.RPC_S_UUID_LOCAL_ONLY1824 (0x720)A UUID that is valid only on this computer has been allocated.RPC_S_SEC_PKG_ERROR1825 (0x721)A security package specific error occurred.RPC_S_NOT_CANCELLED1826 (0x722)Thread is not canceled.RPC_X_INVALID_ES_ACTION1827 (0x723)Invalid operation on the encoding/decoding handle.RPC_X_WRONG_ES_VERSION1828 (0x724)Incompatible version of the serializing package.RPC_X_WRONG_STUB_VERSION1829 (0x725)Incompatible version of the RPC stub.RPC_X_INVALID_PIPE_OBJECT1830 (0x726)The RPC pipe object is invalid or corrupted.RPC_X_WRONG_PIPE_ORDER1831 (0x727)An invalid operation was attempted on an RPC pipe object.RPC_X_WRONG_PIPE_VERSION1832 (0x728)Unsupported RPC pipe version.RPC_S_COOKIE_AUTH_FAILED1833 (0x729)HTTP proxy server rejected the connection because the cookie authentication failed.RPC_S_GROUP_MEMBER_NOT_FOUND1898 (0x76A)The group member was not found.EPT_S_CANT_CREATE1899 (0x76B)The endpoint mapper database entry could not be created.RPC_S_INVALID_OBJECT1900 (0x76C)The object universal unique identifier (UUID) is the nil UUID.
+comment:Not enough quota is available to process this command.
+error:RPC_S_NO_INTERFACES
+number:1817
+comment:No interfaces have been registered.
+error:RPC_S_CALL_CANCELLED
+number:1818
+comment:The remote procedure call was cancelled.
+error:RPC_S_BINDING_INCOMPLETE
+number:1819
+comment:The binding handle does not contain all required information.
+error:RPC_S_COMM_FAILURE
+number:1820
+comment:A communications failure occurred during a remote procedure call.
+error:RPC_S_UNSUPPORTED_AUTHN_LEVEL
+number:1821
+comment:The requested authentication level is not supported.
+error:RPC_S_NO_PRINC_NAME
+number:1822
+comment:No principal name registered.
+error:RPC_S_NOT_RPC_ERROR
+number:1823
+comment:The error specified is not a valid Windows RPC error code.
+error:RPC_S_UUID_LOCAL_ONLY
+number:1824
+comment:A UUID that is valid only on this computer has been allocated.
+error:RPC_S_SEC_PKG_ERROR
+number:1825
+comment:A security package specific error occurred.
+error:RPC_S_NOT_CANCELLED
+number:1826
+comment:Thread is not canceled.
+error:RPC_X_INVALID_ES_ACTION
+number:1827
+comment:Invalid operation on the encoding/decoding handle.
+error:RPC_X_WRONG_ES_VERSION
+number:1828
+comment:Incompatible version of the serializing package.
+error:RPC_X_WRONG_STUB_VERSION
+number:1829
+comment:Incompatible version of the RPC stub.
+error:RPC_X_INVALID_PIPE_OBJECT
+number:1830
+comment:The RPC pipe object is invalid or corrupted.
+error:RPC_X_WRONG_PIPE_ORDER
+number:1831
+comment:An invalid operation was attempted on an RPC pipe object.
+error:RPC_X_WRONG_PIPE_VERSION
+number:1832
+comment:Unsupported RPC pipe version.
+error:RPC_S_COOKIE_AUTH_FAILED
+number:1833
+comment:HTTP proxy server rejected the connection because the cookie authentication failed.
+error:RPC_S_GROUP_MEMBER_NOT_FOUND
+number:1898
+comment:The group member was not found.
+error:EPT_S_CANT_CREATE
+number:1899
+comment:The endpoint mapper database entry could not be created.
+error:RPC_S_INVALID_OBJECT
+number:1900
+comment:The object universal unique identifier (UUID) is the nil UUID.
 error:ERROR_INVALID_TIME
 number:1901
 comment:The specified time is invalid.
@@ -3009,7 +3321,34 @@ number:1908
 comment:Could not find the domain controller for this domain.
 error:ERROR_ACCOUNT_LOCKED_OUT
 number:1909
-comment:The referenced account is currently locked out and may not be logged on to.OR_INVALID_OXID1910 (0x776)The object exporter specified was not found.OR_INVALID_OID1911 (0x777)The object specified was not found.OR_INVALID_SET1912 (0x778)The object resolver set specified was not found.RPC_S_SEND_INCOMPLETE1913 (0x779)Some data remains to be sent in the request buffer.RPC_S_INVALID_ASYNC_HANDLE1914 (0x77A)Invalid asynchronous remote procedure call handle.RPC_S_INVALID_ASYNC_CALL1915 (0x77B)Invalid asynchronous RPC call handle for this operation.RPC_X_PIPE_CLOSED1916 (0x77C)The RPC pipe object has already been closed.RPC_X_PIPE_DISCIPLINE_ERROR1917 (0x77D)The RPC call completed before all pipes were processed.RPC_X_PIPE_EMPTY1918 (0x77E)No more data is available from the RPC pipe.
+comment:The referenced account is currently locked out and may not be logged on to.
+error:OR_INVALID_OXID
+number:1910
+comment:The object exporter specified was not found.
+error:OR_INVALID_OID
+number:1911
+comment:The object specified was not found.
+error:OR_INVALID_SET
+number:1912
+comment:The object resolver set specified was not found.
+error:RPC_S_SEND_INCOMPLETE
+number:1913
+comment:Some data remains to be sent in the request buffer.
+error:RPC_S_INVALID_ASYNC_HANDLE
+number:1914
+comment:Invalid asynchronous remote procedure call handle.
+error:RPC_S_INVALID_ASYNC_CALL
+number:1915
+comment:Invalid asynchronous RPC call handle for this operation.
+error:RPC_X_PIPE_CLOSED
+number:1916
+comment:The RPC pipe object has already been closed.
+error:RPC_X_PIPE_DISCIPLINE_ERROR
+number:1917
+comment:The RPC call completed before all pipes were processed.
+error:RPC_X_PIPE_EMPTY
+number:1918
+comment:No more data is available from the RPC pipe.
 error:ERROR_NO_SITENAME
 number:1919
 comment:No site name is available for this machine.
@@ -3018,7 +3357,31 @@ number:1920
 comment:The file cannot be accessed by the system.
 error:ERROR_CANT_RESOLVE_FILENAME
 number:1921
-comment:The name of the file cannot be resolved by the system.RPC_S_ENTRY_TYPE_MISMATCH1922 (0x782)The entry is not of the expected type.RPC_S_NOT_ALL_OBJS_EXPORTED1923 (0x783)Not all object UUIDs could be exported to the specified entry.RPC_S_INTERFACE_NOT_EXPORTED1924 (0x784)Interface could not be exported to the specified entry.RPC_S_PROFILE_NOT_ADDED1925 (0x785)The specified profile entry could not be added.RPC_S_PRF_ELT_NOT_ADDED1926 (0x786)The specified profile element could not be added.RPC_S_PRF_ELT_NOT_REMOVED1927 (0x787)The specified profile element could not be removed.RPC_S_GRP_ELT_NOT_ADDED1928 (0x788)The group element could not be added.RPC_S_GRP_ELT_NOT_REMOVED1929 (0x789)The group element could not be removed.
+comment:The name of the file cannot be resolved by the system.
+error:RPC_S_ENTRY_TYPE_MISMATCH
+number:1922
+comment:The entry is not of the expected type.
+error:RPC_S_NOT_ALL_OBJS_EXPORTED
+number:1923
+comment:Not all object UUIDs could be exported to the specified entry.
+error:RPC_S_INTERFACE_NOT_EXPORTED
+number:1924
+comment:Interface could not be exported to the specified entry.
+error:RPC_S_PROFILE_NOT_ADDED
+number:1925
+comment:The specified profile entry could not be added.
+error:RPC_S_PRF_ELT_NOT_ADDED
+number:1926
+comment:The specified profile element could not be added.
+error:RPC_S_PRF_ELT_NOT_REMOVED
+number:1927
+comment:The specified profile element could not be removed.
+error:RPC_S_GRP_ELT_NOT_ADDED
+number:1928
+comment:The group element could not be added.
+error:RPC_S_GRP_ELT_NOT_REMOVED
+number:1929
+comment:The group element could not be removed.
 error:ERROR_KM_DRIVER_BLOCKED
 number:1930
 comment:The printer driver is not compatible with a policy enabled on your computer that blocks NT 4.0 drivers.
@@ -3222,7 +3585,58 @@ number:4005
 comment:The name does not exist in the WINS database.
 error:ERROR_RPL_NOT_ALLOWED
 number:4006
-comment:Replication with a nonconfigured partner is not allowed.PEERDIST_ERROR_CONTENTINFO_VERSION_UNSUPPORTED4050 (0xFD2)The version of the supplied content information is not supported.PEERDIST_ERROR_CANNOT_PARSE_CONTENTINFO4051 (0xFD3)The supplied content information is malformed.PEERDIST_ERROR_MISSING_DATA4052 (0xFD4)The requested data cannot be found in local or peer caches.PEERDIST_ERROR_NO_MORE4053 (0xFD5)No more data is available or required.PEERDIST_ERROR_NOT_INITIALIZED4054 (0xFD6)The supplied object has not been initialized.PEERDIST_ERROR_ALREADY_INITIALIZED4055 (0xFD7)The supplied object has already been initialized.PEERDIST_ERROR_SHUTDOWN_IN_PROGRESS4056 (0xFD8)A shutdown operation is already in progress.PEERDIST_ERROR_INVALIDATED4057 (0xFD9)The supplied object has already been invalidated.PEERDIST_ERROR_ALREADY_EXISTS4058 (0xFDA)An element already exists and was not replaced.PEERDIST_ERROR_OPERATION_NOTFOUND4059 (0xFDB)Can not cancel the requested operation as it has already been completed.PEERDIST_ERROR_ALREADY_COMPLETED4060 (0xFDC)Can not perform the reqested operation because it has already been carried out.PEERDIST_ERROR_OUT_OF_BOUNDS4061 (0xFDD)An operation accessed data beyond the bounds of valid data.PEERDIST_ERROR_VERSION_UNSUPPORTED4062 (0xFDE)The requested version is not supported.PEERDIST_ERROR_INVALID_CONFIGURATION4063 (0xFDF)A configuration value is invalid.PEERDIST_ERROR_NOT_LICENSED4064 (0xFE0)The SKU is not licensed.PEERDIST_ERROR_SERVICE_UNAVAILABLE4065 (0xFE1)PeerDist Service is still initializing and will be available shortly.PEERDIST_ERROR_TRUST_FAILURE4066 (0xFE2)Communication with one or more computers will be temporarily blocked due to recent errors.
+comment:Replication with a nonconfigured partner is not allowed.
+error:PEERDIST_ERROR_CONTENTINFO_VERSION_UNSUPPORTED
+number:4050
+comment:The version of the supplied content information is not supported.
+error:PEERDIST_ERROR_CANNOT_PARSE_CONTENTINFO
+number:4051
+comment:The supplied content information is malformed.
+error:PEERDIST_ERROR_MISSING_DATA
+number:4052
+comment:The requested data cannot be found in local or peer caches.
+error:PEERDIST_ERROR_NO_MORE
+number:4053
+comment:No more data is available or required.
+error:PEERDIST_ERROR_NOT_INITIALIZED
+number:4054
+comment:The supplied object has not been initialized.
+error:PEERDIST_ERROR_ALREADY_INITIALIZED
+number:4055
+comment:The supplied object has already been initialized.
+error:PEERDIST_ERROR_SHUTDOWN_IN_PROGRESS
+number:4056
+comment:A shutdown operation is already in progress.
+error:PEERDIST_ERROR_INVALIDATED
+number:4057
+comment:The supplied object has already been invalidated.
+error:PEERDIST_ERROR_ALREADY_EXISTS
+number:4058
+comment:An element already exists and was not replaced.
+error:PEERDIST_ERROR_OPERATION_NOTFOUND
+number:4059
+comment:Can not cancel the requested operation as it has already been completed.
+error:PEERDIST_ERROR_ALREADY_COMPLETED
+number:4060
+comment:Can not perform the reqested operation because it has already been carried out.
+error:PEERDIST_ERROR_OUT_OF_BOUNDS
+number:4061
+comment:An operation accessed data beyond the bounds of valid data.
+error:PEERDIST_ERROR_VERSION_UNSUPPORTED
+number:4062
+comment:The requested version is not supported.
+error:PEERDIST_ERROR_INVALID_CONFIGURATION
+number:4063
+comment:A configuration value is invalid.
+error:PEERDIST_ERROR_NOT_LICENSED
+number:4064
+comment:The SKU is not licensed.
+error:PEERDIST_ERROR_SERVICE_UNAVAILABLE
+number:4065
+comment:PeerDist Service is still initializing and will be available shortly.
+error:PEERDIST_ERROR_TRUST_FAILURE
+number:4066
+comment:Communication with one or more computers will be temporarily blocked due to recent errors.
 error:ERROR_DHCP_ADDRESS_CONFLICT
 number:4100
 comment:The DHCP client has obtained an IP address that is already in use on the network. The local interface will be disabled until the DHCP client can obtain a new address.
@@ -4068,7 +4482,10 @@ number:6022
 comment:The requested operation was blocked by policy. For more information, contact your system administrator.
 error:ERROR_NO_BROWSER_SERVERS_FOUND
 number:6118
-comment:The list of servers for this workgroup is not currently available.SCHED_E_SERVICE_NOT_LOCALSYSTEM6200 (0x1838)The Task Scheduler service must be configured to run in the System account to function properly. Individual tasks may be configured to run in other accounts.
+comment:The list of servers for this workgroup is not currently available.
+error:SCHED_E_SERVICE_NOT_LOCALSYSTEM
+number:6200
+comment:The Task Scheduler service must be configured to run in the System account to function properly. Individual tasks may be configured to run in other accounts.
 error:ERROR_LOG_SECTOR_INVALID
 number:6600
 comment:Log service encountered an invalid log sector.
@@ -4626,7 +5043,58 @@ number:7069
 comment:The target session is incompatible with the current session.
 error:ERROR_TS_VIDEO_SUBSYSTEM_ERROR
 number:7070
-comment:Windows can't connect to your session because a problem occurred in the Windows video subsystem. Try connecting again later, or contact the server administrator for assistance.FRS_ERR_INVALID_API_SEQUENCE8001 (0x1F41)The file replication service API was called incorrectly.FRS_ERR_STARTING_SERVICE8002 (0x1F42)The file replication service cannot be started.FRS_ERR_STOPPING_SERVICE8003 (0x1F43)The file replication service cannot be stopped.FRS_ERR_INTERNAL_API8004 (0x1F44)The file replication service API terminated the request. The event log may have more information.FRS_ERR_INTERNAL8005 (0x1F45)The file replication service terminated the request. The event log may have more information.FRS_ERR_SERVICE_COMM8006 (0x1F46)The file replication service cannot be contacted. The event log may have more information.FRS_ERR_INSUFFICIENT_PRIV8007 (0x1F47)The file replication service cannot satisfy the request because the user has insufficient privileges. The event log may have more information.FRS_ERR_AUTHENTICATION8008 (0x1F48)The file replication service cannot satisfy the request because authenticated RPC is not available. The event log may have more information.FRS_ERR_PARENT_INSUFFICIENT_PRIV8009 (0x1F49)The file replication service cannot satisfy the request because the user has insufficient privileges on the domain controller. The event log may have more information.FRS_ERR_PARENT_AUTHENTICATION8010 (0x1F4A)The file replication service cannot satisfy the request because authenticated RPC is not available on the domain controller. The event log may have more information.FRS_ERR_CHILD_TO_PARENT_COMM8011 (0x1F4B)The file replication service cannot communicate with the file replication service on the domain controller. The event log may have more information.FRS_ERR_PARENT_TO_CHILD_COMM8012 (0x1F4C)The file replication service on the domain controller cannot communicate with the file replication service on this computer. The event log may have more information.FRS_ERR_SYSVOL_POPULATE8013 (0x1F4D)The file replication service cannot populate the system volume because of an internal error. The event log may have more information.FRS_ERR_SYSVOL_POPULATE_TIMEOUT8014 (0x1F4E)The file replication service cannot populate the system volume because of an internal timeout. The event log may have more information.FRS_ERR_SYSVOL_IS_BUSY8015 (0x1F4F)The file replication service cannot process the request. The system volume is busy with a previous request.FRS_ERR_SYSVOL_DEMOTE8016 (0x1F50)The file replication service cannot stop replicating the system volume because of an internal error. The event log may have more information.FRS_ERR_INVALID_SERVICE_PARAMETER8017 (0x1F51)The file replication service detected an invalid parameter.
+comment:Windows can't connect to your session because a problem occurred in the Windows video subsystem. Try connecting again later, or contact the server administrator for assistance.
+error:FRS_ERR_INVALID_API_SEQUENCE
+number:8001
+comment:The file replication service API was called incorrectly.
+error:FRS_ERR_STARTING_SERVICE
+number:8002
+comment:The file replication service cannot be started.
+error:FRS_ERR_STOPPING_SERVICE
+number:8003
+comment:The file replication service cannot be stopped.
+error:FRS_ERR_INTERNAL_API
+number:8004
+comment:The file replication service API terminated the request. The event log may have more information.
+error:FRS_ERR_INTERNAL
+number:8005
+comment:The file replication service terminated the request. The event log may have more information.
+error:FRS_ERR_SERVICE_COMM
+number:8006
+comment:The file replication service cannot be contacted. The event log may have more information.
+error:FRS_ERR_INSUFFICIENT_PRIV
+number:8007
+comment:The file replication service cannot satisfy the request because the user has insufficient privileges. The event log may have more information.
+error:FRS_ERR_AUTHENTICATION
+number:8008
+comment:The file replication service cannot satisfy the request because authenticated RPC is not available. The event log may have more information.
+error:FRS_ERR_PARENT_INSUFFICIENT_PRIV
+number:8009
+comment:The file replication service cannot satisfy the request because the user has insufficient privileges on the domain controller. The event log may have more information.
+error:FRS_ERR_PARENT_AUTHENTICATION
+number:8010
+comment:The file replication service cannot satisfy the request because authenticated RPC is not available on the domain controller. The event log may have more information.
+error:FRS_ERR_CHILD_TO_PARENT_COMM
+number:8011
+comment:The file replication service cannot communicate with the file replication service on the domain controller. The event log may have more information.
+error:FRS_ERR_PARENT_TO_CHILD_COMM
+number:8012
+comment:The file replication service on the domain controller cannot communicate with the file replication service on this computer. The event log may have more information.
+error:FRS_ERR_SYSVOL_POPULATE
+number:8013
+comment:The file replication service cannot populate the system volume because of an internal error. The event log may have more information.
+error:FRS_ERR_SYSVOL_POPULATE_TIMEOUT
+number:8014
+comment:The file replication service cannot populate the system volume because of an internal timeout. The event log may have more information.
+error:FRS_ERR_SYSVOL_IS_BUSY
+number:8015
+comment:The file replication service cannot process the request. The system volume is busy with a previous request.
+error:FRS_ERR_SYSVOL_DEMOTE
+number:8016
+comment:The file replication service cannot stop replicating the system volume because of an internal error. The event log may have more information.
+error:FRS_ERR_INVALID_SERVICE_PARAMETER
+number:8017
+comment:The file replication service detected an invalid parameter.
 error:ERROR_DS_NOT_INSTALLED
 number:8200
 comment:An error occurred while installing the directory service. For more information, see the event log.
@@ -5850,7 +6318,403 @@ number:8645
 comment:The undelete operation failed because the Sam Account Name or Additional Sam Account Name of the object being undeleted conflicts with an existing live object.
 error:ERROR_INCORRECT_ACCOUNT_TYPE
 number:8646
-comment:The system is not authoritative for the specified account and therefore cannot complete the operation. Please retry the operation using the provider associated with this account. If this is an online provider please use the provider's online site.DNS_ERROR_RCODE_FORMAT_ERROR9001 (0x2329)DNS server unable to interpret format.DNS_ERROR_RCODE_SERVER_FAILURE9002 (0x232A)DNS server failure.DNS_ERROR_RCODE_NAME_ERROR9003 (0x232B)DNS name does not exist.DNS_ERROR_RCODE_NOT_IMPLEMENTED9004 (0x232C)DNS request not supported by name server.DNS_ERROR_RCODE_REFUSED9005 (0x232D)DNS operation refused.DNS_ERROR_RCODE_YXDOMAIN9006 (0x232E)DNS name that ought not exist, does exist.DNS_ERROR_RCODE_YXRRSET9007 (0x232F)DNS RR set that ought not exist, does exist.DNS_ERROR_RCODE_NXRRSET9008 (0x2330)DNS RR set that ought to exist, does not exist.DNS_ERROR_RCODE_NOTAUTH9009 (0x2331)DNS server not authoritative for zone.DNS_ERROR_RCODE_NOTZONE9010 (0x2332)DNS name in update or prereq is not in zone.DNS_ERROR_RCODE_BADSIG9016 (0x2338)DNS signature failed to verify.DNS_ERROR_RCODE_BADKEY9017 (0x2339)DNS bad key.DNS_ERROR_RCODE_BADTIME9018 (0x233A)DNS signature validity expired.DNS_ERROR_KEYMASTER_REQUIRED9101 (0x238D)Only the DNS server acting as the key master for the zone may perform this operation.DNS_ERROR_NOT_ALLOWED_ON_SIGNED_ZONE9102 (0x238E)This operation is not allowed on a zone that is signed or has signing keys.DNS_ERROR_NSEC3_INCOMPATIBLE_WITH_RSA_SHA19103 (0x238F)NSEC3 is not compatible with the RSA-SHA-1 algorithm. Choose a different algorithm or use NSEC.This value was also named DNS_ERROR_INVALID_NSEC3_PARAMETERSDNS_ERROR_NOT_ENOUGH_SIGNING_KEY_DESCRIPTORS9104 (0x2390)The zone does not have enough signing keys. There must be at least one key signing key (KSK) and at least one zone signing key (ZSK).DNS_ERROR_UNSUPPORTED_ALGORITHM9105 (0x2391)The specified algorithm is not supported.DNS_ERROR_INVALID_KEY_SIZE9106 (0x2392)The specified key size is not supported.DNS_ERROR_SIGNING_KEY_NOT_ACCESSIBLE9107 (0x2393)One or more of the signing keys for a zone are not accessible to the DNS server. Zone signing will not be operational until this error is resolved.DNS_ERROR_KSP_DOES_NOT_SUPPORT_PROTECTION9108 (0x2394)The specified key storage provider does not support DPAPI++ data protection. Zone signing will not be operational until this error is resolved.DNS_ERROR_UNEXPECTED_DATA_PROTECTION_ERROR9109 (0x2395)An unexpected DPAPI++ error was encountered. Zone signing will not be operational until this error is resolved.DNS_ERROR_UNEXPECTED_CNG_ERROR9110 (0x2396)An unexpected crypto error was encountered. Zone signing may not be operational until this error is resolved.DNS_ERROR_UNKNOWN_SIGNING_PARAMETER_VERSION9111 (0x2397)The DNS server encountered a signing key with an unknown version. Zone signing will not be operational until this error is resolved.DNS_ERROR_KSP_NOT_ACCESSIBLE9112 (0x2398)The specified key service provider cannot be opened by the DNS server.DNS_ERROR_TOO_MANY_SKDS9113 (0x2399)The DNS server cannot accept any more signing keys with the specified algorithm and KSK flag value for this zone.DNS_ERROR_INVALID_ROLLOVER_PERIOD9114 (0x239A)The specified rollover period is invalid.DNS_ERROR_INVALID_INITIAL_ROLLOVER_OFFSET9115 (0x239B)The specified initial rollover offset is invalid.DNS_ERROR_ROLLOVER_IN_PROGRESS9116 (0x239C)The specified signing key is already in process of rolling over keys.DNS_ERROR_STANDBY_KEY_NOT_PRESENT9117 (0x239D)The specified signing key does not have a standby key to revoke.DNS_ERROR_NOT_ALLOWED_ON_ZSK9118 (0x239E)This operation is not allowed on a zone signing key (ZSK).DNS_ERROR_NOT_ALLOWED_ON_ACTIVE_SKD9119 (0x239F)This operation is not allowed on an active signing key.DNS_ERROR_ROLLOVER_ALREADY_QUEUED9120 (0x23A0)The specified signing key is already queued for rollover.DNS_ERROR_NOT_ALLOWED_ON_UNSIGNED_ZONE9121 (0x23A1)This operation is not allowed on an unsigned zone.DNS_ERROR_BAD_KEYMASTER9122 (0x23A2)This operation could not be completed because the DNS server listed as the current key master for this zone is down or misconfigured. Resolve the problem on the current key master for this zone or use another DNS server to seize the key master role.DNS_ERROR_INVALID_SIGNATURE_VALIDITY_PERIOD9123 (0x23A3)The specified signature validity period is invalid.DNS_ERROR_INVALID_NSEC3_ITERATION_COUNT9124 (0x23A4)The specified NSEC3 iteration count is higher than allowed by the minimum key length used in the zone.DNS_ERROR_DNSSEC_IS_DISABLED9125 (0x23A5)This operation could not be completed because the DNS server has been configured with DNSSEC features disabled. Enable DNSSEC on the DNS server.DNS_ERROR_INVALID_XML9126 (0x23A6)This operation could not be completed because the XML stream received is empty or syntactically invalid.DNS_ERROR_NO_VALID_TRUST_ANCHORS9127 (0x23A7)This operation completed, but no trust anchors were added because all of the trust anchors received were either invalid, unsupported, expired, or would not become valid in less than 30 days.DNS_ERROR_ROLLOVER_NOT_POKEABLE9128 (0x23A8)The specified signing key is not waiting for parental DS update.DNS_ERROR_NSEC3_NAME_COLLISION9129 (0x23A9)Hash collision detected during NSEC3 signing. Specify a different user-provided salt, or use a randomly generated salt, and attempt to sign the zone again.DNS_ERROR_NSEC_INCOMPATIBLE_WITH_NSEC3_RSA_SHA19130 (0x23AA)NSEC is not compatible with the NSEC3-RSA-SHA-1 algorithm. Choose a different algorithm or use NSEC3.DNS_INFO_NO_RECORDS9501 (0x251D)No records found for given DNS query.DNS_ERROR_BAD_PACKET9502 (0x251E)Bad DNS packet.DNS_ERROR_NO_PACKET9503 (0x251F)No DNS packet.DNS_ERROR_RCODE9504 (0x2520)DNS error, check rcode.DNS_ERROR_UNSECURE_PACKET9505 (0x2521)Unsecured DNS packet.DNS_REQUEST_PENDING9506 (0x2522)DNS query request is pending.DNS_ERROR_INVALID_TYPE9551 (0x254F)Invalid DNS type.DNS_ERROR_INVALID_IP_ADDRESS9552 (0x2550)Invalid IP address.DNS_ERROR_INVALID_PROPERTY9553 (0x2551)Invalid property.DNS_ERROR_TRY_AGAIN_LATER9554 (0x2552)Try DNS operation again later.DNS_ERROR_NOT_UNIQUE9555 (0x2553)Record for given name and type is not unique.DNS_ERROR_NON_RFC_NAME9556 (0x2554)DNS name does not comply with RFC specifications.DNS_STATUS_FQDN9557 (0x2555)DNS name is a fully-qualified DNS name.DNS_STATUS_DOTTED_NAME9558 (0x2556)DNS name is dotted (multi-label).DNS_STATUS_SINGLE_PART_NAME9559 (0x2557)DNS name is a single-part name.DNS_ERROR_INVALID_NAME_CHAR9560 (0x2558)DNS name contains an invalid character.DNS_ERROR_NUMERIC_NAME9561 (0x2559)DNS name is entirely numeric.DNS_ERROR_NOT_ALLOWED_ON_ROOT_SERVER9562 (0x255A)The operation requested is not permitted on a DNS root server.DNS_ERROR_NOT_ALLOWED_UNDER_DELEGATION9563 (0x255B)The record could not be created because this part of the DNS namespace has been delegated to another server.DNS_ERROR_CANNOT_FIND_ROOT_HINTS9564 (0x255C)The DNS server could not find a set of root hints.DNS_ERROR_INCONSISTENT_ROOT_HINTS9565 (0x255D)The DNS server found root hints but they were not consistent across all adapters.DNS_ERROR_DWORD_VALUE_TOO_SMALL9566 (0x255E)The specified value is too small for this parameter.DNS_ERROR_DWORD_VALUE_TOO_LARGE9567 (0x255F)The specified value is too large for this parameter.DNS_ERROR_BACKGROUND_LOADING9568 (0x2560)This operation is not allowed while the DNS server is loading zones in the background. Please try again later.DNS_ERROR_NOT_ALLOWED_ON_RODC9569 (0x2561)The operation requested is not permitted on against a DNS server running on a read-only DC.DNS_ERROR_NOT_ALLOWED_UNDER_DNAME9570 (0x2562)No data is allowed to exist underneath a DNAME record.DNS_ERROR_DELEGATION_REQUIRED9571 (0x2563)This operation requires credentials delegation.DNS_ERROR_INVALID_POLICY_TABLE9572 (0x2564)Name resolution policy table has been corrupted. DNS resolution will fail until it is fixed. Contact your network administrator.DNS_ERROR_ZONE_DOES_NOT_EXIST9601 (0x2581)DNS zone does not exist.DNS_ERROR_NO_ZONE_INFO9602 (0x2582)DNS zone information not available.DNS_ERROR_INVALID_ZONE_OPERATION9603 (0x2583)Invalid operation for DNS zone.DNS_ERROR_ZONE_CONFIGURATION_ERROR9604 (0x2584)Invalid DNS zone configuration.DNS_ERROR_ZONE_HAS_NO_SOA_RECORD9605 (0x2585)DNS zone has no start of authority (SOA) record.DNS_ERROR_ZONE_HAS_NO_NS_RECORDS9606 (0x2586)DNS zone has no Name Server (NS) record.DNS_ERROR_ZONE_LOCKED9607 (0x2587)DNS zone is locked.DNS_ERROR_ZONE_CREATION_FAILED9608 (0x2588)DNS zone creation failed.DNS_ERROR_ZONE_ALREADY_EXISTS9609 (0x2589)DNS zone already exists.DNS_ERROR_AUTOZONE_ALREADY_EXISTS9610 (0x258A)DNS automatic zone already exists.DNS_ERROR_INVALID_ZONE_TYPE9611 (0x258B)Invalid DNS zone type.DNS_ERROR_SECONDARY_REQUIRES_MASTER_IP9612 (0x258C)Secondary DNS zone requires master IP address.DNS_ERROR_ZONE_NOT_SECONDARY9613 (0x258D)DNS zone not secondary.DNS_ERROR_NEED_SECONDARY_ADDRESSES9614 (0x258E)Need secondary IP address.DNS_ERROR_WINS_INIT_FAILED9615 (0x258F)WINS initialization failed.DNS_ERROR_NEED_WINS_SERVERS9616 (0x2590)Need WINS servers.DNS_ERROR_NBSTAT_INIT_FAILED9617 (0x2591)NBTSTAT initialization call failed.DNS_ERROR_SOA_DELETE_INVALID9618 (0x2592)Invalid delete of start of authority (SOA).DNS_ERROR_FORWARDER_ALREADY_EXISTS9619 (0x2593)A conditional forwarding zone already exists for that name.DNS_ERROR_ZONE_REQUIRES_MASTER_IP9620 (0x2594)This zone must be configured with one or more master DNS server IP addresses.DNS_ERROR_ZONE_IS_SHUTDOWN9621 (0x2595)The operation cannot be performed because this zone is shut down.DNS_ERROR_ZONE_LOCKED_FOR_SIGNING9622 (0x2596)This operation cannot be performed because the zone is currently being signed. Please try again later.DNS_ERROR_PRIMARY_REQUIRES_DATAFILE9651 (0x25B3)Primary DNS zone requires datafile.DNS_ERROR_INVALID_DATAFILE_NAME9652 (0x25B4)Invalid datafile name for DNS zone.DNS_ERROR_DATAFILE_OPEN_FAILURE9653 (0x25B5)Failed to open datafile for DNS zone.DNS_ERROR_FILE_WRITEBACK_FAILED9654 (0x25B6)Failed to write datafile for DNS zone.DNS_ERROR_DATAFILE_PARSING9655 (0x25B7)Failure while reading datafile for DNS zone.DNS_ERROR_RECORD_DOES_NOT_EXIST9701 (0x25E5)DNS record does not exist.DNS_ERROR_RECORD_FORMAT9702 (0x25E6)DNS record format error.DNS_ERROR_NODE_CREATION_FAILED9703 (0x25E7)Node creation failure in DNS.DNS_ERROR_UNKNOWN_RECORD_TYPE9704 (0x25E8)Unknown DNS record type.DNS_ERROR_RECORD_TIMED_OUT9705 (0x25E9)DNS record timed out.DNS_ERROR_NAME_NOT_IN_ZONE9706 (0x25EA)Name not in DNS zone.DNS_ERROR_CNAME_LOOP9707 (0x25EB)CNAME loop detected.DNS_ERROR_NODE_IS_CNAME9708 (0x25EC)Node is a CNAME DNS record.DNS_ERROR_CNAME_COLLISION9709 (0x25ED)A CNAME record already exists for given name.DNS_ERROR_RECORD_ONLY_AT_ZONE_ROOT9710 (0x25EE)Record only at DNS zone root.DNS_ERROR_RECORD_ALREADY_EXISTS9711 (0x25EF)DNS record already exists.DNS_ERROR_SECONDARY_DATA9712 (0x25F0)Secondary DNS zone data error.DNS_ERROR_NO_CREATE_CACHE_DATA9713 (0x25F1)Could not create DNS cache data.DNS_ERROR_NAME_DOES_NOT_EXIST9714 (0x25F2)DNS name does not exist.DNS_WARNING_PTR_CREATE_FAILED9715 (0x25F3)Could not create pointer (PTR) record.DNS_WARNING_DOMAIN_UNDELETED9716 (0x25F4)DNS domain was undeleted.DNS_ERROR_DS_UNAVAILABLE9717 (0x25F5)The directory service is unavailable.DNS_ERROR_DS_ZONE_ALREADY_EXISTS9718 (0x25F6)DNS zone already exists in the directory service.DNS_ERROR_NO_BOOTFILE_IF_DS_ZONE9719 (0x25F7)DNS server not creating or reading the boot file for the directory service integrated DNS zone.DNS_ERROR_NODE_IS_DNAME9720 (0x25F8)Node is a DNAME DNS record.DNS_ERROR_DNAME_COLLISION9721 (0x25F9)A DNAME record already exists for given name.DNS_ERROR_ALIAS_LOOP9722 (0x25FA)An alias loop has been detected with either CNAME or DNAME records.DNS_INFO_AXFR_COMPLETE9751 (0x2617)DNS AXFR (zone transfer) complete.DNS_ERROR_AXFR9752 (0x2618)DNS zone transfer failed.DNS_INFO_ADDED_LOCAL_WINS9753 (0x2619)Added local WINS server.DNS_STATUS_CONTINUE_NEEDED9801 (0x2649)Secure update call needs to continue update request.DNS_ERROR_NO_TCPIP9851 (0x267B)TCP/IP network protocol not installed.DNS_ERROR_NO_DNS_SERVERS9852 (0x267C)No DNS servers configured for local system.DNS_ERROR_DP_DOES_NOT_EXIST9901 (0x26AD)The specified directory partition does not exist.DNS_ERROR_DP_ALREADY_EXISTS9902 (0x26AE)The specified directory partition already exists.DNS_ERROR_DP_NOT_ENLISTED9903 (0x26AF)This DNS server is not enlisted in the specified directory partition.DNS_ERROR_DP_ALREADY_ENLISTED9904 (0x26B0)This DNS server is already enlisted in the specified directory partition.DNS_ERROR_DP_NOT_AVAILABLE9905 (0x26B1)The directory partition is not available at this time. Please wait a few minutes and try again.DNS_ERROR_DP_FSMO_ERROR9906 (0x26B2)The operation failed because the domain naming master FSMO role could not be reached. The domain controller holding the domain naming master FSMO role is down or unable to service the request or is not running Windows Server 2003 or later.
+comment:The system is not authoritative for the specified account and therefore cannot complete the operation. Please retry the operation using the provider associated with this account. If this is an online provider please use the provider's online site.
+error:DNS_ERROR_RCODE_FORMAT_ERROR
+number:9001
+comment:DNS server unable to interpret format.
+error:DNS_ERROR_RCODE_SERVER_FAILURE
+number:9002
+comment:DNS server failure.
+error:DNS_ERROR_RCODE_NAME_ERROR
+number:9003
+comment:DNS name does not exist.
+error:DNS_ERROR_RCODE_NOT_IMPLEMENTED
+number:9004
+comment:DNS request not supported by name server.
+error:DNS_ERROR_RCODE_REFUSED
+number:9005
+comment:DNS operation refused.
+error:DNS_ERROR_RCODE_YXDOMAIN
+number:9006
+comment:DNS name that ought not exist, does exist.
+error:DNS_ERROR_RCODE_YXRRSET
+number:9007
+comment:DNS RR set that ought not exist, does exist.
+error:DNS_ERROR_RCODE_NXRRSET
+number:9008
+comment:DNS RR set that ought to exist, does not exist.
+error:DNS_ERROR_RCODE_NOTAUTH
+number:9009
+comment:DNS server not authoritative for zone.
+error:DNS_ERROR_RCODE_NOTZONE
+number:9010
+comment:DNS name in update or prereq is not in zone.
+error:DNS_ERROR_RCODE_BADSIG
+number:9016
+comment:DNS signature failed to verify.
+error:DNS_ERROR_RCODE_BADKEY
+number:9017
+comment:DNS bad key.
+error:DNS_ERROR_RCODE_BADTIME
+number:9018
+comment:DNS signature validity expired.
+error:DNS_ERROR_KEYMASTER_REQUIRED
+number:9101
+comment:Only the DNS server acting as the key master for the zone may perform this operation.
+error:DNS_ERROR_NOT_ALLOWED_ON_SIGNED_ZONE
+number:9102
+comment:This operation is not allowed on a zone that is signed or has signing keys.
+error:DNS_ERROR_NSEC3_INCOMPATIBLE_WITH_RSA_SHA1
+number:9103
+comment:NSEC3 is not compatible with the RSA-SHA-1 algorithm. Choose a different algorithm or use NSEC.This value was also named DNS_ERROR_INVALID_NSEC3_PARAMETERS
+error:DNS_ERROR_NOT_ENOUGH_SIGNING_KEY_DESCRIPTORS
+number:9104
+comment:The zone does not have enough signing keys. There must be at least one key signing key (KSK) and at least one zone signing key (ZSK).
+error:DNS_ERROR_UNSUPPORTED_ALGORITHM
+number:9105
+comment:The specified algorithm is not supported.
+error:DNS_ERROR_INVALID_KEY_SIZE
+number:9106
+comment:The specified key size is not supported.
+error:DNS_ERROR_SIGNING_KEY_NOT_ACCESSIBLE
+number:9107
+comment:One or more of the signing keys for a zone are not accessible to the DNS server. Zone signing will not be operational until this error is resolved.
+error:DNS_ERROR_KSP_DOES_NOT_SUPPORT_PROTECTION
+number:9108
+comment:The specified key storage provider does not support DPAPI++ data protection. Zone signing will not be operational until this error is resolved.
+error:DNS_ERROR_UNEXPECTED_DATA_PROTECTION_ERROR
+number:9109
+comment:An unexpected DPAPI++ error was encountered. Zone signing will not be operational until this error is resolved.
+error:DNS_ERROR_UNEXPECTED_CNG_ERROR
+number:9110
+comment:An unexpected crypto error was encountered. Zone signing may not be operational until this error is resolved.
+error:DNS_ERROR_UNKNOWN_SIGNING_PARAMETER_VERSION
+number:9111
+comment:The DNS server encountered a signing key with an unknown version. Zone signing will not be operational until this error is resolved.
+error:DNS_ERROR_KSP_NOT_ACCESSIBLE
+number:9112
+comment:The specified key service provider cannot be opened by the DNS server.
+error:DNS_ERROR_TOO_MANY_SKDS
+number:9113
+comment:The DNS server cannot accept any more signing keys with the specified algorithm and KSK flag value for this zone.
+error:DNS_ERROR_INVALID_ROLLOVER_PERIOD
+number:9114
+comment:The specified rollover period is invalid.
+error:DNS_ERROR_INVALID_INITIAL_ROLLOVER_OFFSET
+number:9115
+comment:The specified initial rollover offset is invalid.
+error:DNS_ERROR_ROLLOVER_IN_PROGRESS
+number:9116
+comment:The specified signing key is already in process of rolling over keys.
+error:DNS_ERROR_STANDBY_KEY_NOT_PRESENT
+number:9117
+comment:The specified signing key does not have a standby key to revoke.
+error:DNS_ERROR_NOT_ALLOWED_ON_ZSK
+number:9118
+comment:This operation is not allowed on a zone signing key (ZSK).
+error:DNS_ERROR_NOT_ALLOWED_ON_ACTIVE_SKD
+number:9119
+comment:This operation is not allowed on an active signing key.
+error:DNS_ERROR_ROLLOVER_ALREADY_QUEUED
+number:9120
+comment:The specified signing key is already queued for rollover.
+error:DNS_ERROR_NOT_ALLOWED_ON_UNSIGNED_ZONE
+number:9121
+comment:This operation is not allowed on an unsigned zone.
+error:DNS_ERROR_BAD_KEYMASTER
+number:9122
+comment:This operation could not be completed because the DNS server listed as the current key master for this zone is down or misconfigured. Resolve the problem on the current key master for this zone or use another DNS server to seize the key master role.
+error:DNS_ERROR_INVALID_SIGNATURE_VALIDITY_PERIOD
+number:9123
+comment:The specified signature validity period is invalid.
+error:DNS_ERROR_INVALID_NSEC3_ITERATION_COUNT
+number:9124
+comment:The specified NSEC3 iteration count is higher than allowed by the minimum key length used in the zone.
+error:DNS_ERROR_DNSSEC_IS_DISABLED
+number:9125
+comment:This operation could not be completed because the DNS server has been configured with DNSSEC features disabled. Enable DNSSEC on the DNS server.
+error:DNS_ERROR_INVALID_XML
+number:9126
+comment:This operation could not be completed because the XML stream received is empty or syntactically invalid.
+error:DNS_ERROR_NO_VALID_TRUST_ANCHORS
+number:9127
+comment:This operation completed, but no trust anchors were added because all of the trust anchors received were either invalid, unsupported, expired, or would not become valid in less than 30 days.
+error:DNS_ERROR_ROLLOVER_NOT_POKEABLE
+number:9128
+comment:The specified signing key is not waiting for parental DS update.
+error:DNS_ERROR_NSEC3_NAME_COLLISION
+number:9129
+comment:Hash collision detected during NSEC3 signing. Specify a different user-provided salt, or use a randomly generated salt, and attempt to sign the zone again.
+error:DNS_ERROR_NSEC_INCOMPATIBLE_WITH_NSEC3_RSA_SHA1
+number:9130
+comment:NSEC is not compatible with the NSEC3-RSA-SHA-1 algorithm. Choose a different algorithm or use NSEC3.
+error:DNS_INFO_NO_RECORDS
+number:9501
+comment:No records found for given DNS query.
+error:DNS_ERROR_BAD_PACKET
+number:9502
+comment:Bad DNS packet.
+error:DNS_ERROR_NO_PACKET
+number:9503
+comment:No DNS packet.
+error:DNS_ERROR_RCODE
+number:9504
+comment:DNS error, check rcode.
+error:DNS_ERROR_UNSECURE_PACKET
+number:9505
+comment:Unsecured DNS packet.
+error:DNS_REQUEST_PENDING
+number:9506
+comment:DNS query request is pending.
+error:DNS_ERROR_INVALID_TYPE
+number:9551
+comment:Invalid DNS type.
+error:DNS_ERROR_INVALID_IP_ADDRESS
+number:9552
+comment:Invalid IP address.
+error:DNS_ERROR_INVALID_PROPERTY
+number:9553
+comment:Invalid property.
+error:DNS_ERROR_TRY_AGAIN_LATER
+number:9554
+comment:Try DNS operation again later.
+error:DNS_ERROR_NOT_UNIQUE
+number:9555
+comment:Record for given name and type is not unique.
+error:DNS_ERROR_NON_RFC_NAME
+number:9556
+comment:DNS name does not comply with RFC specifications.
+error:DNS_STATUS_FQDN
+number:9557
+comment:DNS name is a fully-qualified DNS name.
+error:DNS_STATUS_DOTTED_NAME
+number:9558
+comment:DNS name is dotted (multi-label).
+error:DNS_STATUS_SINGLE_PART_NAME
+number:9559
+comment:DNS name is a single-part name.
+error:DNS_ERROR_INVALID_NAME_CHAR
+number:9560
+comment:DNS name contains an invalid character.
+error:DNS_ERROR_NUMERIC_NAME
+number:9561
+comment:DNS name is entirely numeric.
+error:DNS_ERROR_NOT_ALLOWED_ON_ROOT_SERVER
+number:9562
+comment:The operation requested is not permitted on a DNS root server.
+error:DNS_ERROR_NOT_ALLOWED_UNDER_DELEGATION
+number:9563
+comment:The record could not be created because this part of the DNS namespace has been delegated to another server.
+error:DNS_ERROR_CANNOT_FIND_ROOT_HINTS
+number:9564
+comment:The DNS server could not find a set of root hints.
+error:DNS_ERROR_INCONSISTENT_ROOT_HINTS
+number:9565
+comment:The DNS server found root hints but they were not consistent across all adapters.
+error:DNS_ERROR_DWORD_VALUE_TOO_SMALL
+number:9566
+comment:The specified value is too small for this parameter.
+error:DNS_ERROR_DWORD_VALUE_TOO_LARGE
+number:9567
+comment:The specified value is too large for this parameter.
+error:DNS_ERROR_BACKGROUND_LOADING
+number:9568
+comment:This operation is not allowed while the DNS server is loading zones in the background. Please try again later.
+error:DNS_ERROR_NOT_ALLOWED_ON_RODC
+number:9569
+comment:The operation requested is not permitted on against a DNS server running on a read-only DC.
+error:DNS_ERROR_NOT_ALLOWED_UNDER_DNAME
+number:9570
+comment:No data is allowed to exist underneath a DNAME record.
+error:DNS_ERROR_DELEGATION_REQUIRED
+number:9571
+comment:This operation requires credentials delegation.
+error:DNS_ERROR_INVALID_POLICY_TABLE
+number:9572
+comment:Name resolution policy table has been corrupted. DNS resolution will fail until it is fixed. Contact your network administrator.
+error:DNS_ERROR_ZONE_DOES_NOT_EXIST
+number:9601
+comment:DNS zone does not exist.
+error:DNS_ERROR_NO_ZONE_INFO
+number:9602
+comment:DNS zone information not available.
+error:DNS_ERROR_INVALID_ZONE_OPERATION
+number:9603
+comment:Invalid operation for DNS zone.
+error:DNS_ERROR_ZONE_CONFIGURATION_ERROR
+number:9604
+comment:Invalid DNS zone configuration.
+error:DNS_ERROR_ZONE_HAS_NO_SOA_RECORD
+number:9605
+comment:DNS zone has no start of authority (SOA) record.
+error:DNS_ERROR_ZONE_HAS_NO_NS_RECORDS
+number:9606
+comment:DNS zone has no Name Server (NS) record.
+error:DNS_ERROR_ZONE_LOCKED
+number:9607
+comment:DNS zone is locked.
+error:DNS_ERROR_ZONE_CREATION_FAILED
+number:9608
+comment:DNS zone creation failed.
+error:DNS_ERROR_ZONE_ALREADY_EXISTS
+number:9609
+comment:DNS zone already exists.
+error:DNS_ERROR_AUTOZONE_ALREADY_EXISTS
+number:9610
+comment:DNS automatic zone already exists.
+error:DNS_ERROR_INVALID_ZONE_TYPE
+number:9611
+comment:Invalid DNS zone type.
+error:DNS_ERROR_SECONDARY_REQUIRES_MASTER_IP
+number:9612
+comment:Secondary DNS zone requires master IP address.
+error:DNS_ERROR_ZONE_NOT_SECONDARY
+number:9613
+comment:DNS zone not secondary.
+error:DNS_ERROR_NEED_SECONDARY_ADDRESSES
+number:9614
+comment:Need secondary IP address.
+error:DNS_ERROR_WINS_INIT_FAILED
+number:9615
+comment:WINS initialization failed.
+error:DNS_ERROR_NEED_WINS_SERVERS
+number:9616
+comment:Need WINS servers.
+error:DNS_ERROR_NBSTAT_INIT_FAILED
+number:9617
+comment:NBTSTAT initialization call failed.
+error:DNS_ERROR_SOA_DELETE_INVALID
+number:9618
+comment:Invalid delete of start of authority (SOA).
+error:DNS_ERROR_FORWARDER_ALREADY_EXISTS
+number:9619
+comment:A conditional forwarding zone already exists for that name.
+error:DNS_ERROR_ZONE_REQUIRES_MASTER_IP
+number:9620
+comment:This zone must be configured with one or more master DNS server IP addresses.
+error:DNS_ERROR_ZONE_IS_SHUTDOWN
+number:9621
+comment:The operation cannot be performed because this zone is shut down.
+error:DNS_ERROR_ZONE_LOCKED_FOR_SIGNING
+number:9622
+comment:This operation cannot be performed because the zone is currently being signed. Please try again later.
+error:DNS_ERROR_PRIMARY_REQUIRES_DATAFILE
+number:9651
+comment:Primary DNS zone requires datafile.
+error:DNS_ERROR_INVALID_DATAFILE_NAME
+number:9652
+comment:Invalid datafile name for DNS zone.
+error:DNS_ERROR_DATAFILE_OPEN_FAILURE
+number:9653
+comment:Failed to open datafile for DNS zone.
+error:DNS_ERROR_FILE_WRITEBACK_FAILED
+number:9654
+comment:Failed to write datafile for DNS zone.
+error:DNS_ERROR_DATAFILE_PARSING
+number:9655
+comment:Failure while reading datafile for DNS zone.
+error:DNS_ERROR_RECORD_DOES_NOT_EXIST
+number:9701
+comment:DNS record does not exist.
+error:DNS_ERROR_RECORD_FORMAT
+number:9702
+comment:DNS record format error.
+error:DNS_ERROR_NODE_CREATION_FAILED
+number:9703
+comment:Node creation failure in DNS.
+error:DNS_ERROR_UNKNOWN_RECORD_TYPE
+number:9704
+comment:Unknown DNS record type.
+error:DNS_ERROR_RECORD_TIMED_OUT
+number:9705
+comment:DNS record timed out.
+error:DNS_ERROR_NAME_NOT_IN_ZONE
+number:9706
+comment:Name not in DNS zone.
+error:DNS_ERROR_CNAME_LOOP
+number:9707
+comment:CNAME loop detected.
+error:DNS_ERROR_NODE_IS_CNAME
+number:9708
+comment:Node is a CNAME DNS record.
+error:DNS_ERROR_CNAME_COLLISION
+number:9709
+comment:A CNAME record already exists for given name.
+error:DNS_ERROR_RECORD_ONLY_AT_ZONE_ROOT
+number:9710
+comment:Record only at DNS zone root.
+error:DNS_ERROR_RECORD_ALREADY_EXISTS
+number:9711
+comment:DNS record already exists.
+error:DNS_ERROR_SECONDARY_DATA
+number:9712
+comment:Secondary DNS zone data error.
+error:DNS_ERROR_NO_CREATE_CACHE_DATA
+number:9713
+comment:Could not create DNS cache data.
+error:DNS_ERROR_NAME_DOES_NOT_EXIST
+number:9714
+comment:DNS name does not exist.
+error:DNS_WARNING_PTR_CREATE_FAILED
+number:9715
+comment:Could not create pointer (PTR) record.
+error:DNS_WARNING_DOMAIN_UNDELETED
+number:9716
+comment:DNS domain was undeleted.
+error:DNS_ERROR_DS_UNAVAILABLE
+number:9717
+comment:The directory service is unavailable.
+error:DNS_ERROR_DS_ZONE_ALREADY_EXISTS
+number:9718
+comment:DNS zone already exists in the directory service.
+error:DNS_ERROR_NO_BOOTFILE_IF_DS_ZONE
+number:9719
+comment:DNS server not creating or reading the boot file for the directory service integrated DNS zone.
+error:DNS_ERROR_NODE_IS_DNAME
+number:9720
+comment:Node is a DNAME DNS record.
+error:DNS_ERROR_DNAME_COLLISION
+number:9721
+comment:A DNAME record already exists for given name.
+error:DNS_ERROR_ALIAS_LOOP
+number:9722
+comment:An alias loop has been detected with either CNAME or DNAME records.
+error:DNS_INFO_AXFR_COMPLETE
+number:9751
+comment:DNS AXFR (zone transfer) complete.
+error:DNS_ERROR_AXFR
+number:9752
+comment:DNS zone transfer failed.
+error:DNS_INFO_ADDED_LOCAL_WINS
+number:9753
+comment:Added local WINS server.
+error:DNS_STATUS_CONTINUE_NEEDED
+number:9801
+comment:Secure update call needs to continue update request.
+error:DNS_ERROR_NO_TCPIP
+number:9851
+comment:TCP/IP network protocol not installed.
+error:DNS_ERROR_NO_DNS_SERVERS
+number:9852
+comment:No DNS servers configured for local system.
+error:DNS_ERROR_DP_DOES_NOT_EXIST
+number:9901
+comment:The specified directory partition does not exist.
+error:DNS_ERROR_DP_ALREADY_EXISTS
+number:9902
+comment:The specified directory partition already exists.
+error:DNS_ERROR_DP_NOT_ENLISTED
+number:9903
+comment:This DNS server is not enlisted in the specified directory partition.
+error:DNS_ERROR_DP_ALREADY_ENLISTED
+number:9904
+comment:This DNS server is already enlisted in the specified directory partition.
+error:DNS_ERROR_DP_NOT_AVAILABLE
+number:9905
+comment:The directory partition is not available at this time. Please wait a few minutes and try again.
+error:DNS_ERROR_DP_FSMO_ERROR
+number:9906
+comment:The operation failed because the domain naming master FSMO role could not be reached. The domain controller holding the domain naming master FSMO role is down or unable to service the request or is not running Windows Server 2003 or later.
 error:WSAEINTR
 number:10004
 comment:A blocking operation was interrupted by a call to WSACancelBlockingCall.
@@ -6198,7 +7062,13 @@ number:13022
 comment:The Main Mode authentication bundle is pending deletion.
 error:ERROR_IPSEC_QM_POLICY_PENDING_DELETION
 number:13023
-comment:The Quick Mode policy is pending deletion.WARNING_IPSEC_MM_POLICY_PRUNED13024 (0x32E0)The Main Mode policy was successfully added, but some of the requested offers are not supported.WARNING_IPSEC_QM_POLICY_PRUNED13025 (0x32E1)The Quick Mode policy was successfully added, but some of the requested offers are not supported.
+comment:The Quick Mode policy is pending deletion.
+error:WARNING_IPSEC_MM_POLICY_PRUNED
+number:13024
+comment:The Main Mode policy was successfully added, but some of the requested offers are not supported.
+error:WARNING_IPSEC_QM_POLICY_PRUNED
+number:13025
+comment:The Quick Mode policy was successfully added, but some of the requested offers are not supported.
 error:ERROR_IPSEC_IKE_NEG_STATUS_BEGIN
 number:13800
 comment:ERROR_IPSEC_IKE_NEG_STATUS_BEGIN
@@ -7293,7 +8163,19 @@ number:15625
 comment:The operation could not be resumed because necessary data for recovery have been corrupted.
 error:ERROR_INSTALL_FIREWALL_SERVICE_NOT_RUNNING
 number:15626
-comment:The package could not be installed because the Windows Firewall service is not running. Enable the Windows Firewall service and try again.APPMODEL_ERROR_NO_PACKAGE15700 (0x3D54)The process has no package identity.APPMODEL_ERROR_PACKAGE_RUNTIME_CORRUPT15701 (0x3D55)The package runtime information is corrupted.APPMODEL_ERROR_PACKAGE_IDENTITY_CORRUPT15702 (0x3D56)The package identity is corrupted.APPMODEL_ERROR_NO_APPLICATION15703 (0x3D57)The process has no application identity.
+comment:The package could not be installed because the Windows Firewall service is not running. Enable the Windows Firewall service and try again.
+error:APPMODEL_ERROR_NO_PACKAGE
+number:15700
+comment:The process has no package identity.
+error:APPMODEL_ERROR_PACKAGE_RUNTIME_CORRUPT
+number:15701
+comment:The package runtime information is corrupted.
+error:APPMODEL_ERROR_PACKAGE_IDENTITY_CORRUPT
+number:15702
+comment:The package identity is corrupted.
+error:APPMODEL_ERROR_NO_APPLICATION
+number:15703
+comment:The process has no application identity.
 error:ERROR_STATE_LOAD_STORE_FAILED
 number:15800
 comment:Loading the state store failed.
